@@ -1,4 +1,4 @@
-
+<!-- This is just an addition change in the readme file -->
 ### Date created
 05-09-2022
 
@@ -10,9 +10,8 @@ An interactive script that generates descrpetive statistics for the data of a bi
 three different cities new york, cicago, and wahsington.
 
 ### Files used
-the directory named data has the 3 csv files that contain data from the cities.
 the script named "bikeshare_2.py" is the python script to run to see the results.
-
+you can run the script as follows: "python bikeshare_2.py"
+Note: make sure data is in the same directory as the script. 
 ### Credits
 This repo was an inspiration from this forked repo: https://github.com/udacity/pdsnd_github
-
