@@ -39,8 +39,6 @@ def get_filters():
         else:
             break
       
-    # month_filter= input("Do you want to filter by month?(y/n)").lower()
-    # if month_filter=='y':
     # get user input for month (all, january, february, ... , june)
     while True:  
         month= input("\nWhich month (e.g. January)? (Type all if no filter needed\n").lower()
@@ -175,10 +173,7 @@ def user_stats(df):
         return
 
     # Display counts of user types
-    print(f"Users Type distribution: \n {df['User Type'].value_counts()}")
-
-    # Gender', 'Birth Year
-    
+    print(f"Users Type distribution: \n {df['User Type'].value_counts()}")    
     # Display counts of gender
     if 'Gender' in df.columns: 
         print(f"Users Gender distribution: \n{df['Gender'].value_counts()}")
@@ -217,7 +212,6 @@ def main():
             else:
                 print("Invalid input, please write yes or no")
                 continue
-
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
